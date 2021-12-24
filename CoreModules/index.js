@@ -16,3 +16,5 @@ fs.writeFileSync("data.txt","hello how are you");
 // it will create new file  name data.txt -- and write -- hello how are you
 fs.writeFileSync("data.txt"," how are you");
 // it will over write the previous data of the file
+fs.writeFileSync("data.txt","this will over write previous one")
+// fs.writeFileSync("newdata.txt","this will over write previous one")
