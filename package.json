@@ -1,0 +1,23 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "bycript js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwajeet16cs/All_About_NodeJs.git"
+  },
+  "author": "vishwajeet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishwajeet16cs/All_About_NodeJs/issues"
+  },
+  "homepage": "https://github.com/vishwajeet16cs/All_About_NodeJs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mongodb": "^4.2.2"
+  }
+}
