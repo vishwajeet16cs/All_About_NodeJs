@@ -18,6 +18,8 @@
   "homepage": "https://github.com/vishwajeet16cs/All_About_NodeJs#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "mongodb": "^4.2.2"
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.2.2",
+    "nodemon": "^2.0.15"
   }
 }
