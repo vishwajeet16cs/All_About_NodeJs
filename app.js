@@ -1,19 +1,21 @@
-// create server - http: node js core module
-const http= require("http");
-const server = http.createServer((req,resp)=>{
-    resp.end(`<h1>hello, http server</h1>
-    <h1>hello,jjwjs http server</h1>
-    <h1>hello, http server</h1>
-    <h1>hello, http server</h1>`);
+//ES 5 - notation
+const express=require("express")
+// import express, { application } from "express";
+const app=express();
+/* API URL:localhost:5000/signup
+Method: POST
+Feild: Email,Password
+Access Type: public
+ */
+app.post("/",(req,res)=>{
+    //business logic to insert data
+    res.send("user register successfully")
 })
-server.listen(8000,(err)=>{
-    if(err) throw err
-    console.log(" server runing .........")
+app.get("/",(req,res)=>{
+    res.send(`<h1>hello to main page</h1>`)
 })
-// here we we are done some change - it not reflect in server label
-// after doing change we have to stop and restart the serve again 
-// above proble can be over come by NodeMon
-/* NODEMON--> The nodemon Module is a module that develop node. js 
-based applications by automatically restarting 
-the node application when file changes in the directory are detected. 
-Nodemon does not require any change in the original code and method of development. */
+  app.listen(5000,(err)=>{
+      if(err) throw err;
+      console.log("server is running ....")
+
+  })
