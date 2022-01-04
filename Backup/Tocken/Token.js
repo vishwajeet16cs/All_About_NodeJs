@@ -6,6 +6,7 @@
   let payload={
       id:user.email,
   }
+//   let firstName="vishwajeet"
   let secretkey = "helloSecretkey";
   let token = jwt.sign(payload,secretkey,{expiresIn:60*60})
   console.log(token)

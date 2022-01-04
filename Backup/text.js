@@ -56,8 +56,3 @@ console.log(iterator.next("b").value)
 console.log(iterator.next("c").value) */
 
 //----------------------------------------
-
-f("foo");
-setTimeout(function(){f("bar");},0);
-f("baz");
-console.log(f())
